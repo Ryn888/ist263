@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="uft-8">
+        <title>CSS Demo</title>
+        <!-- this is the tag for css, it goes inside head tag -->
+        <style>
+            p, li {
+                color:darkred;
+                font-size: 2em;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: bolder;
+                text-decoration: line-through;
+            }
+            /*look up different formatting properties on w3wschool*/
+
+            body {
+                color: blue;
+            }
+
+            /*only a tags in p will be green*/
+            p a {
+                color:green;
+            }
+            /* this is for is selectors*/
+            #firstp{
+                color:deeppink
+            }
+            /* this is for class selectors*/
+            .thirdp{
+                color:yellow;
+            }
+
+        </style>
+        <!-- p is our selector, color is our property, darkred is our value-->
+        <!-- the declaration is color: darkred -->
+        <!-- 1em is the default font size, 2 is twice, .5 is half size-->
+    </head>
+
+    <body>
+        <!-- id must be unique -->
+        <p id="firstp">Lorme ipsum.</p>
+        <p>second paragraph <a href="http://www.google.com">google</a></p>
+        <p class="thirdp">third paragraph</p>
+        <!-- class attributes can be used over and over with the same value-->
+        <ul>
+            <li>my first item</li>
+            <li><a href="http://www.google.com">google</a></li>
+        </ul>
+    </body>
+</html>
