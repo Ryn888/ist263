@@ -1,0 +1,44 @@
+h1 {
+    color: #ff0000;
+    /* hex color needs pound sign and 6 digits*/
+}
+
+/* these three selectors are pseudo selectors*/
+/* colon seperates the selector from its state*/
+
+a:link{
+    color: #00ff00;
+}
+
+a:visited{
+    color:#0000ff;
+}
+
+a:hover{
+    color:#8000ff;
+    background-color: #00eeff;
+}
+
+.lookdifferent:hover{
+    color: #999999;
+}
+
+body{
+    background-image: url(../images/LinkedIn-Logos/LI-Logo.png);
+    background-size:100%;
+    background-color: #efefef;
+}
+
+p{
+    background-color: #ffffff;
+    /*creates background color for whole page*/
+    padding: 20px;
+    /*space between content and edge of box*/
+    margin: 50xp;
+    /*space between outside of the box and rest of the content*/
+    border: 5px solid #0000ff;
+    /*this is combo value*/
+    /*boarder width type color*/
+    /*width of your box is content width plus border width x2
+    plus width x2, plus padding width x2*/
+}
