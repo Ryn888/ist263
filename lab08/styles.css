@@ -56,13 +56,13 @@ nav a:hover{
     background-color: #ffffff;
 }
 
-.tagline{
-    float: right;
-}
+.tagline{float: right;}
 
-.row1{background-color:#BBE5ED; border-radius: 1em;}
-.address,.links{float: left; margin-right: 10px;}
-.clear{clear: both;}
+.row1{background-color:#BBE5ED; padding-left: 20px; border-radius: 1em; padding-top: 20px; padding-bottom: 10px;}
+
+.address{float:left;padding-right: 30px;}
+
+.clear{clear: both; padding:10px;}
 
 .row2{display: flex;padding: 20px; background-color:#BBE5ED; border-radius: 2em;}
 .map{flex: 2}
