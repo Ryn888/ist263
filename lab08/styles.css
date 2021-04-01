@@ -58,12 +58,12 @@ nav a:hover{
 
 .tagline{float: right;}
 
-.row1{background-color:#BBE5ED; padding-left: 20px; border-radius: 1em; padding-top: 20px; padding-bottom: 10px;}
+.row1{background-color:#BBE5ED; margin: 20px; padding-left: 20px; border-radius: 1em; padding-top: 20px; padding-bottom: 20px;}
 
 .address{float:left;padding-right: 30px;}
 
-.clear{clear: both; padding:10px;}
+.clear{clear: both; padding: 5px;}
 
-.row2{display: flex;padding: 20px; background-color:#BBE5ED; border-radius: 2em;}
-.map{flex: 2}
-.form{flex: 1}
+.row2{display: flex;padding: 20px; background-color:#BBE5ED; margin: 20px; border-radius: 2em;}
+.map{flex: 2; margin: 10px;}
+.form{flex: 1; margin: 10px;}
