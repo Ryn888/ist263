@@ -21,17 +21,6 @@ a{
     color:#635B71;
 }
 
-/*
-a:visited{
-    color:#220a2e;
-}
-
-a:hover{
-    color: #7AB3C7;
-    background-color: #ffffff;
-}
-*/
-
 .evenrow{
     background-color:#BBE5ED;
 }
@@ -64,6 +53,16 @@ nav a:hover{
 
 .clear{clear: both; padding: 5px;}
 
-.row2{display: flex;padding: 20px; background-color:#BBE5ED; margin: 20px; border-radius: 2em;}
+.row2{display: flex; flex-wrap: wrap; padding: 20px; background-color:#BBE5ED; margin: 20px; border-radius: 2em;}
 .map{flex: 2; margin: 10px;}
 .form{flex: 1; margin: 10px;}
+
+.mybanner{max-width:100%;}
+
+@media only screen and (max-width: 600px){
+    /*
+    body {background-color: orange;}
+    .sidebar{display: none;}*/
+    /*display none takes something off the page*/
+    nav a {display: block; max-width:100%}
+}
