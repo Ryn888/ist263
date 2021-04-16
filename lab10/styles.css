@@ -1,0 +1,92 @@
+
+
+body{
+    background-color: #F4F0EC;
+
+}
+
+h1,h2 {
+    color:#0075A2;
+    /*font-size: 2em*/
+    /* hex color needs pound sign and 6 digits*/
+}
+h1{font-size: 3em;}
+h2{font-size: 1.5em;}
+
+p{
+    font-size: 1em;
+    color: #073d6d;
+}
+
+tr,li,label{
+    color: #073d6d;
+}
+
+td,th{
+    font-size: 1em;
+}
+
+caption{
+    font-size: 1.5em;
+}
+
+a{
+    color:#635B71;
+}
+
+.evenrow{
+    background-color:#BBE5ED;
+}
+
+caption{
+    color: #0075A2;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+nav{
+    background-color: #1d4937;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a{
+    color:#8ebdce;
+}
+
+nav a:hover{
+    background-color: #ffffff;
+}
+
+.tagline{float: right;}
+
+.row1{background-color:#BBE5ED; margin: 20px; padding-left: 20px; border-radius: 1em; padding-top: 20px; padding-bottom: 20px;}
+
+.address{float:left;padding-right: 30px;}
+
+.clear{clear: both; padding: 5px;}
+
+.row2{display: flex; flex-wrap: wrap; padding: 20px; background-color:#BBE5ED; margin: 20px; border-radius: 2em;}
+.map{flex: 2; margin: 10px;}
+.form{flex: 1; margin: 10px;}
+
+.mybanner{max-width:100%;}
+
+@media only screen and (max-width: 600px){
+    nav a {display: block; max-width:100%; padding-bottom:5px;}
+    span{display: none;}
+}
+
+#skipbutton{
+    position:absolute;
+    /*position based on top left viewport*/
+    left: -999px;
+    /*mean the element is off screen*/
+    background-color: white;
+    border: 1px solid black;
+    }
+    /*when item is tab to */
+    #skipbutton:focus {
+        position: absolute;
+        left: 10px;
+    }
