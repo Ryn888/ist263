@@ -51,7 +51,10 @@ nav{
 }
 
 nav a{
-    color:#edf4f7;
+    color:#dfecf1;
+}
+nav span{
+    color:#dfecf1;
 }
 
 nav a:hover{
