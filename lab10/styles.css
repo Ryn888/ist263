@@ -13,7 +13,7 @@ h1,h2 {
 h1{font-size: 3em;}
 h2{font-size: 1.5em;}
 
-p{
+p, legend{
     font-size: 1em;
     color: #073d6d;
 }
@@ -29,6 +29,7 @@ td,th{
 caption{
     font-size: 1.5em;
 }
+
 
 a{
     color:#635B71;
