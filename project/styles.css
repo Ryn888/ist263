@@ -15,7 +15,7 @@ h1{
     padding: 15px;
 }
 a{
-    color:#586994
+    color:#394060
 }
 a:hover{
     color:#7FD8BE
@@ -50,19 +50,36 @@ a:hover{
 }
 
 /*copenhagen*/
-.row1cop{
-    margin: 20px;
-    /*padding: 20px;*/
-    display: flex; 
-    flex-wrap: wrap;
-}
 .col1cop{
-    flex:1;
-    margin: 10px;
+    float: left; 
+    margin-right: 10px;
+    /*flex:1;
+    margin: 10px;*/
 }
 .col2cop{
     flex:2;
-    margin: 10px; 
+    /*margin: 10px; */
+}
+.row1cop{
+    /*margin: 5px;*/
+    /*padding: 20px;*/
+    display:flex; 
+    flex-wrap: wrap;
+}
+.col3cop{
+    float: left; 
+    margin-right: 5px;
+    /*flex:1;
+    margin: 10px;*/
+}
+.col4cop{
+    flex:4;
+    margin: 10px;
+}
+.row2cop{
+    /*padding: 5px;*/
+    display:flex; 
+    flex-wrap: wrap;
 }
 .copbio{
     background-color: #F7DCA9;
