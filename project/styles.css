@@ -1,0 +1,78 @@
+
+/*all*/
+body{
+    background-color:#FCAB64;
+}
+nav{
+    background-color:#FCFFD9;
+    border: 2px solid;
+    padding: 5px;
+}
+h1{
+    text-align: center;
+}
+.space{
+    padding: 15px;
+}
+a{
+    color:#586994
+}
+a:hover{
+    color:#7FD8BE
+}
+.clear{
+    clear:both;
+}
+
+
+/*seville*/
+.col1,.col2{
+    flex:1;
+    margin: 10px;
+}
+.row1{
+    margin: 20px;
+    /*padding: 20px;*/
+    display: flex; 
+    flex-wrap: wrap;
+}
+.sevbio{
+    background-color: #F7DCA9;
+    padding: 5px;
+    border: 2px solid;
+    /*border-radius: 2em;*/
+}
+.sevbody{
+    background-color: #F7DCA9;
+    padding: 5px;
+    border: 2px solid;
+    /*border-radius: 2em;*/
+}
+
+/*copenhagen*/
+.row1cop{
+    margin: 20px;
+    /*padding: 20px;*/
+    display: flex; 
+    flex-wrap: wrap;
+}
+.col1cop{
+    flex:1;
+    margin: 10px;
+}
+.col2cop{
+    flex:2;
+    margin: 10px; 
+}
+.copbio{
+    background-color: #F7DCA9;
+    padding: 5px;
+    border: 2px solid;
+    /*border-radius: 2em;*/
+}
+.copbody{
+    background-color: #F7DCA9;
+    padding: 5px;
+    border: 2px solid;
+    /*border-radius: 2em;*/
+}
