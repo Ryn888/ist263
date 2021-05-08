@@ -28,6 +28,9 @@ a:hover{
     span{display: none;}
     img{width:100%}
 }
+h1,h2{
+    font-family: 'Slabo 27px', serif;
+}
 
 
 /*seville*/
