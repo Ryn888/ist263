@@ -31,7 +31,19 @@ a:hover{
 h1,h2{
     font-family: 'Slabo 27px', serif;
 }
-
+#skipbutton{
+    position:absolute;
+    /*position based on top left viewport*/
+    left: -999px;
+    /*mean the element is off screen*/
+    background-color: white;
+    border: 1px solid black;
+    }
+    /*when item is tab to */
+    #skipbutton:focus {
+        position: absolute;
+        left: 10px;
+    }
 
 /*seville*/
 .col1,.col2{
