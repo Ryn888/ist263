@@ -17,6 +17,14 @@
             .col1,.col2{flex:50%;margin: 10px;}
             }
         </style>
+        <script>
+            function rightAnswer(){
+                document.getElementById("answermessage").innerHTML="Correct! Seville is not the capital, Madrid is."
+            }
+            function wrongAnswer(){
+                document.getElementById("answermessage").innerHTML="Incorrect! Seville is not the capital, Madrid is."
+            }
+        </script>
     </head>
     <body>
         <nav>
@@ -71,22 +79,19 @@
                     </p>
                     <br>
             </section>
-            <!--
             <div class=space></div>
             <section class='trivia'>
                 <h2>True or False</h2>
                 <p>Seville is the capital of Spain</p>
-                <input type="radio" name="answer" id="answert" value="True">
-                <label for="answert">True</label>
+                <input type="radio" name="answer" id="answert" value="True" onclick="wrongAnswer();">
+                <label for="answert">True</label><br>
 
-                <input type="radio" name="answer" id="answerf" value="False">
+                <input type="radio" name="answer" id="answerf" value="False" onclick="rightAnswer();">
                 <label for="answerf">False</label>
                 <br>
-                <div class='button'>
-                    <p>Check</p>
-                </div>
+                <div class=space></div>
+                <div id='answermessage'></div>
             </section>
-            -->
         </main>
     </body>
 </html>
