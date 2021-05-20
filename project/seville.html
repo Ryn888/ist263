@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
         <style>
             @media only screen and (max-width: 760px){
-            nav a {display: block; max-width:100%; padding-bottom:5px;}
+            nav a {display: block; max-width:100%; padding-bottom:10px;}
             span{display: none;}
             img{width:100%}
             .col1,.col2{flex:50%;margin: 10px;}
@@ -81,16 +81,18 @@
             </section>
             <div class=space></div>
             <section class='trivia'>
-                <h2>True or False</h2>
-                <p>Seville is the capital of Spain</p>
-                <input type="radio" name="answer" id="answert" value="True" onclick="wrongAnswer();">
-                <label for="answert">True</label><br>
+                <fieldset>
+                    <h2>True or False</h2>
+                    <p>Seville is the capital of Spain</p>
+                    <input type="radio" name="answer" id="answert" value="True" onclick="wrongAnswer();">
+                    <label for="answert">True</label><br>
 
-                <input type="radio" name="answer" id="answerf" value="False" onclick="rightAnswer();">
-                <label for="answerf">False</label>
-                <br>
-                <div class=space></div>
-                <div id='answermessage'></div>
+                    <input type="radio" name="answer" id="answerf" value="False" onclick="rightAnswer();">
+                    <label for="answerf">False</label>
+                    <br>
+                    <div class=space></div>
+                    <div id='answermessage'></div>
+                </fieldset>
             </section>
         </main>
     </body>
